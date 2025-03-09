@@ -1,0 +1,433 @@
+[
+    {
+        "title": "Classic Pancakes",
+        "category": "Breakfast",
+        "image": "https://cdn-prd.healthymealplans.com/recipe/aaed165eee53dd6efc83869a9c",
+        "ingredients": [
+            "Flour",
+            "Eggs",
+            "Milk",
+            "Butter",
+            "Sugar"
+        ],
+        "description": "Fluffy and soft pancakes served with syrup and butter.",
+        "price": 150,
+        "rating": 4.8,
+        "distributor_name": "Morning Delights",
+        "post_time": "2025-01-01T08:00:00Z",
+        "likedBy": [
+            "User1"
+        ],
+        "likes": 1,
+        "mealAddedEmail": "mdtanjimhossen2010@gmail.com"
+    },
+    {
+        "title": "Veggie Sandwich",
+        "category": "Breakfast",
+        "image": "https://rhubarbandcod.com/wp-content/uploads/2023/05/Ultimate-Veggie-Sandwich",
+        "ingredients": [
+            "Bread",
+            "Lettuce",
+            "Tomato",
+            "Cheese",
+            "Cucumber"
+        ],
+        "description": "Healthy sandwich loaded with fresh vegetables and cheese.",
+        "price": 120,
+        "rating": 4.5,
+        "distributor_name": "Green Bites",
+        "post_time": "2025-01-01T08:30:00Z",
+        "likedBy": [
+            "User2"
+        ],
+        "likes": 1,
+        "mealAddedEmail": "mdtanjimhossen2024@gmail.com"
+    },
+    {
+        "title": "Chicken Biryani",
+        "category": "Lunch",
+        "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-biryani",
+        "ingredients": [
+            "Rice",
+            "Chicken",
+            "Spices",
+            "Yogurt",
+            "Onions"
+        ],
+        "description": "Aromatic chicken biryani with tender chicken pieces and flavorful rice.",
+        "price": 300,
+        "rating": 4.9,
+        "distributor_name": "Spicy Kitchen",
+        "post_time": "2025-01-01T13:00:00Z",
+        "mealAddedEmail": "tanjim@gmail.com"
+    },
+    {
+        "title": "Grilled Salmon",
+        "category": "Lunch",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-salmon-recipe",
+        "ingredients": [
+            "Salmon",
+            "Lemon",
+            "Herbs",
+            "Salt",
+            "Pepper"
+        ],
+        "description": "Perfectly grilled salmon served with a side of vegetables.",
+        "price": 400,
+        "rating": 4.7,
+        "distributor_name": "Seafood Delight",
+        "post_time": "2025-01-01T13:30:00Z",
+        "mealAddedEmail": "mdtanjimhossen2010@gmail.com"
+    },
+    {
+        "title": "Spaghetti Bolognese",
+        "category": "Dinner",
+        "image": "https://www.woolworths.co.nz/Content/Recipes/230232-Classic-SpagBol_810x456",
+        "ingredients": [
+            "Spaghetti",
+            "Ground Beef",
+            "Tomato Sauce",
+            "Garlic",
+            "Onions"
+        ],
+        "description": "Classic Italian pasta with rich bolognese sauce.",
+        "price": 250,
+        "rating": 4.6,
+        "distributor_name": "Italiano Kitchen",
+        "post_time": "2025-01-01T19:00:00Z",
+        "mealAddedEmail": "mdtanjimhossen2024@gmail.com"
+    },
+    {
+        "title": "Beef Steak",
+        "category": "Dinner",
+        "image": "https://mojo.generalmills.com/api/public/content/LASaPpVD5E6LGty8lf97z",
+        "ingredients": [
+            "Beef",
+            "Salt",
+            "Pepper",
+            "Garlic",
+            "Butter"
+        ],
+        "description": "Juicy beef steak cooked to perfection with a side of mashed potatoes.",
+        "price": 500,
+        "rating": 4.9,
+        "distributor_name": "Prime Cuts",
+        "post_time": "2025-01-01T19:30:00Z",
+        "mealAddedEmail": "tanjim@gmail.com"
+    },
+    {
+        "title": "Chicken Caesar Salad",
+        "category": "Lunch",
+        "image": "https://www.jessicagavin.com/wp-content/uploads/2022/06/chicken-caesar-salad",
+        "ingredients": [
+            "Lettuce",
+            "Chicken",
+            "Croutons",
+            "Parmesan",
+            "Caesar Dressing"
+        ],
+        "description": "Crisp romaine lettuce topped with grilled chicken and creamy Caesar dressing.",
+        "price": 200,
+        "rating": 4.7,
+        "distributor_name": "Healthy Treats",
+        "post_time": "2025-01-01T13:45:00Z",
+        "mealAddedEmail": "mdtanjimhossen2010@gmail.com"
+    },
+    {
+        "title": "Vegetable Curry",
+        "category": "Dinner",
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Slow-Cooked-Vegetable-Curry",
+        "ingredients": [
+            "Vegetables",
+            "Coconut Milk",
+            "Spices",
+            "Garlic",
+            "Onions"
+        ],
+        "description": "Rich and creamy vegetable curry served with steamed rice.",
+        "price": 180,
+        "rating": 4.4,
+        "distributor_name": "Curry House",
+        "post_time": "2025-01-01T19:45:00Z",
+        "mealAddedEmail": "mdtanjimhossen2024@gmail.com"
+    },
+    {
+        "title": "Fruit Parfait",
+        "category": "Breakfast",
+        "image": "https://www.thehungrybites.com/wp-content/uploads/2019/07/Homemade-yogurt-parfait",
+        "ingredients": [
+            "Yogurt",
+            "Granola",
+            "Strawberries",
+            "Blueberries"
+        ],
+        "description": "Refreshing fruit parfait layered with yogurt and granola.",
+        "price": 140,
+        "rating": 4.3,
+        "distributor_name": "Morning Bliss",
+        "post_time": "2025-01-01T08:45:00Z",
+        "mealAddedEmail": "tanjim@gmail.com"
+    },
+    {
+        "title": "Egg Benedict",
+        "category": "Breakfast",
+        "image": "https://www.simplyrecipes.com/thmb/XSpHSUt6_YkCXJ-1ZRp5HfbZoWw=/1500x0",
+        "ingredients": [
+            "English Muffins",
+            "Eggs",
+            "Ham",
+            "Hollandaise Sauce"
+        ],
+        "description": "Classic breakfast dish served with poached eggs and creamy hollandaise sauce.",
+        "price": 180,
+        "rating": 4.6,
+        "likes": 9,
+        "distributor_name": "Brunch Bistro",
+        "post_time": "2025-01-01T09:00:00Z",
+        "mealAddedEmail": "mdtanjimhossen2010@gmail.com"
+    },
+    {
+        "title": "Chicken Tikka Masala",
+        "category": "Lunch",
+        "image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0",
+        "ingredients": [
+            "Chicken",
+            "Tomatoes",
+            "Cream",
+            "Spices",
+            "Onions"
+        ],
+        "description": "Spicy and creamy chicken curry served with naan or rice.",
+        "price": 280,
+        "rating": 4.8,
+        "likes": 22,
+        "distributor_name": "Indian Spice",
+        "post_time": "2025-01-01T12:45:00Z",
+        "mealAddedEmail": "mdtanjimhossen2024@gmail.com"
+    },
+    {
+        "title": "Vegetable Stir Fry",
+        "category": "Dinner",
+        "image": "https://recipe30.com/wp-content/uploads/2021/08/Asian-stirfried-vegetables",
+        "ingredients": [
+            "Broccoli",
+            "Carrots",
+            "Bell Peppers",
+            "Soy Sauce",
+            "Garlic"
+        ],
+        "description": "Healthy stir-fried vegetables tossed in soy sauce and garlic.",
+        "price": 170,
+        "rating": 4.5,
+        "likes": 11,
+        "distributor_name": "Asian Wok",
+        "post_time": "2025-01-01T19:15:00Z",
+        "mealAddedEmail": "tanjim@gmail.com"
+    },
+    {
+        "title": "Cheeseburger",
+        "category": "Lunch",
+        "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0.jpg",
+        "ingredients": [
+            "Beef Patty",
+            "Cheese",
+            "Lettuce",
+            "Tomato",
+            "Burger Bun"
+        ],
+        "description": "Juicy cheeseburger served with fresh veggies and fries.",
+        "price": 250,
+        "rating": 4.7,
+        "likes": 19,
+        "distributor_name": "Burger Joint",
+        "post_time": "2025-01-01T13:15:00Z",
+        "mealAddedEmail": "mdtanjimhossen2010@gmail.com"
+    },
+    {
+        "title": "Chocolate Cake",
+        "category": "Dessert",
+        "image": "https://scientificallysweet.com/wp-content/uploads/2020/09/IMG_4117-feature",
+        "ingredients": [
+            "Flour",
+            "Cocoa",
+            "Sugar",
+            "Eggs",
+            "Butter"
+        ],
+        "description": "Rich and moist chocolate cake with a creamy frosting.",
+        "price": 200,
+        "rating": 4.9,
+        "likes": 25,
+        "distributor_name": "Sweet Treats",
+        "post_time": "2025-01-01T15:30:00Z",
+        "mealAddedEmail": "mdtanjimhossen2024@gmail.com"
+    },
+    {
+        "title": "Mushroom Soup",
+        "category": "Dinner",
+        "image": "https://www.allrecipes.com/thmb/PKh_MtthZMtG1flNmud0MNgRK7w=/1500x0",
+        "ingredients": [
+            "Mushrooms",
+            "Cream",
+            "Garlic",
+            "Onions",
+            "Herbs"
+        ],
+        "description": "Creamy mushroom soup garnished with fresh herbs.",
+        "price": 150,
+        "rating": 4.6,
+        "likes": 8,
+        "distributor_name": "Soup Kitchen",
+        "post_time": "2025-01-01T19:50:00Z",
+        "mealAddedEmail": "tanjim@gmail.com"
+    },
+    {
+        "title": "Grilled Cheese Sandwich",
+        "category": "Breakfast",
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/grilled-cheese-sandwich",
+        "ingredients": [
+            "Bread",
+            "Cheese",
+            "Butter"
+        ],
+        "description": "Crispy grilled sandwich with melted cheese inside.",
+        "price": 100,
+        "rating": 4.3,
+        "likes": 7,
+        "distributor_name": "Breakfast Express",
+        "post_time": "2025-01-01T08:15:00Z",
+        "mealAddedEmail": "mdtanjimhossen2010@gmail.com"
+    },
+    {
+        "title": "Shrimp Fried Rice",
+        "category": "Lunch",
+        "image": "https://www.allrecipes.com/thmb/2sI15_bQPb_LYm-SmQbzidHG_WA=/1500x0",
+        "ingredients": [
+            "Rice",
+            "Shrimp",
+            "Vegetables",
+            "Soy Sauce",
+            "Garlic"
+        ],
+        "description": "Flavorful fried rice with shrimp and mixed veggies.",
+        "price": 240,
+        "rating": 4.8,
+        "likes": 14,
+        "distributor_name": "Asian Delight",
+        "post_time": "2025-01-01T13:50:00Z",
+        "mealAddedEmail": "mdtanjimhossen2024@gmail.com"
+    },
+    {
+        "title": "Tandoori Roti",
+        "category": "Dinner",
+        "image": "https://inredberry.com/wp-content/uploads/2023/10/Tandoori-Roti.png",
+        "ingredients": [
+            "Wheat Flour",
+            "Water",
+            "Salt"
+        ],
+        "description": "Soft and flavorful roti cooked in a tandoor oven.",
+        "price": 50,
+        "rating": 4.5,
+        "likes": 5,
+        "distributor_name": "Indian Spice",
+        "post_time": "2025-01-01T19:40:00Z",
+        "mealAddedEmail": "tanjim@gmail.com"
+    },
+    {
+        "title": "Ice Cream Sundae",
+        "category": "Dessert",
+        "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_16:9",
+        "ingredients": [
+            "Ice Cream",
+            "Chocolate Syrup",
+            "Cherries",
+            "Nuts"
+        ],
+        "description": "Delicious ice cream sundae topped with syrup and cherries.",
+        "price": 150,
+        "rating": 4.7,
+        "likes": 18,
+        "distributor_name": "Sweet Treats",
+        "post_time": "2025-01-01T16:00:00Z",
+        "mealAdded": "tanjim@gamil.com"
+    }
+],
+[
+    {
+        "id": 1,
+        "image": "https://cdn-prd.healthymealplans.com/recipe/aaed165eee53dd6efc83869a9c24e1b/classic-pancakes.jpg"
+    },
+    {
+        "id": 2,
+        "image": "https://rhubarbandcod.com/wp-content/uploads/2023/05/Ultimate-Veggie-Sandwich.jpg"
+    },
+    {
+        "id": 3,
+        "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-biryani.jpg"
+    },
+    {
+        "id": 4,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-salmon-recipe.jpg"
+    },
+    {
+        "id": 5,
+        "image": "https://www.woolworths.co.nz/Content/Recipes/230232-Classic-SpagBol_819x456.jpg"
+    },
+    {
+        "id": 6,
+        "image": "https://mojo.generalmills.com/api/public/content/LASaPpVD5E6LGty8lf97zZQjBfSrd93e/beef-steak.jpg"
+    },
+    {
+        "id": 7,
+        "image": "https://www.jessicagavin.com/wp-content/uploads/2022/06/chicken-caesar-salad.jpg"
+    },
+    {
+        "id": 8,
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Slow-Cooked-Vegetable-Curry.jpg"
+    },
+    {
+        "id": 9,
+        "image": "https://www.thehungrybites.com/wp-content/uploads/2019/07/Homemade-yogurt-fruit-parfait.jpg"
+    },
+    {
+        "id": 10,
+        "image": "https://www.simplyrecipes.com/thmb/XSpHSUt6_YkCXJ-1ZRp5HfbZoWw=/1500x0/filters:no_upscale()/Egg-Benedict.jpg"
+    },
+    {
+        "id": 11,
+        "image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale()/Chicken-Tikka-Masala.jpg"
+    },
+    {
+        "id": 12,
+        "image": "https://recipe30.com/wp-content/uploads/2021/08/Asian-stirfried-vegetables.jpg"
+    },
+    {
+        "id": 13,
+        "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burger_0.jpg"
+    },
+    {
+        "id": 14,
+        "image": "https://scientificallysweet.com/wp-content/uploads/2020/09/IMG_4117-featured.jpg"
+    },
+    {
+        "id": 15,
+        "image": "https://www.allrecipes.com/thmb/PKh_MtthZMtG1flNmud0MNgRK7w=/1500x0/filters:no_upscale()/Creamy-Mushroom-Soup.jpg"
+    },
+    {
+        "id": 16,
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/grilled-cheese-sandwich.jpg"
+    },
+    {
+        "id": 17,
+        "image": "https://www.allrecipes.com/thmb/2sI15_bQPb_LYm-SmQbzidHG_WA=/1500x0/filters:no_upscale()/Shrimp-Fried-Rice.jpg"
+    },
+    {
+        "id": 18,
+        "image": "https://inredberry.com/wp-content/uploads/2023/10/Tandoori-Roti.png"
+    },
+    {
+        "id": 19,
+        "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_2:1/crop/i/sundae.jpg"
+    }
+]
