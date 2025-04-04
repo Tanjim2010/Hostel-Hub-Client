@@ -26,7 +26,7 @@ const AdminUpcomingMeals = () => {
 
 
     const handlePublish = async (meal) => {
-        console.log(meal)
+        // console.log(meal)
         const data = {
             title: meal.title,
             category: meal.category,
@@ -39,7 +39,7 @@ const AdminUpcomingMeals = () => {
             post_time: new Date(),
             mealAddedEmail: user.email
         }
-        console.log(data)
+        // console.log(data)
         Swal.fire({
             title: "Are you sure?",
             text: "You won't be able to revert this!",
@@ -55,7 +55,7 @@ const AdminUpcomingMeals = () => {
                     toast.success('deleted successful.')
                     refetch()
                 }
-                console.log(res)
+                // console.log(res)
             }
         });
 
@@ -71,7 +71,7 @@ const AdminUpcomingMeals = () => {
         const rating = form.rating.value;
         const image = form.image.value;
         const data = { title, category, price, description, rating, image, }
-        console.log(data)
+        // console.log(data)
         const res = await axiosSecure.post('/upcomingMeals/admin', data)
         if (res.data.acknowledged) {
             refetch()

@@ -32,7 +32,7 @@ const MealsDetails = () => {
             return res.data;
         }
     });
-    console.log(loadedMeals)
+    // console.log(loadedMeals)
 
     // Ensure reviewsData query runs only after `loadedMeals` is available
     const { data: reviewsData = [], isPending: reviewPending, isLoading: reviewLoading, refetch: reviewFetch } = useQuery({

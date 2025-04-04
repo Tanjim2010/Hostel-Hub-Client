@@ -35,7 +35,7 @@ const RequestedMeals = () => {
                     toast.success('deleted successful.')
                     refetch()
                 }
-                console.log(res)
+                // console.log(res)
             }
         });
     }

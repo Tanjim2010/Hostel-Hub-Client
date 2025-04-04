@@ -16,16 +16,16 @@ const Login = () => {
     } = useForm();
 
     const onSubmit = (data) => {
-        console.log("Form Data: ", data);
+        // console.log("Form Data: ", data);
         const {email, password} = data;
         loginInUser(email, password)
         .then(res => {
-            console.log(res)
+            // console.log(res)
             navigate('/')
             toast.success('Login in successful...')
         })
         .catch(error => {
-            console.log(error)
+            // console.log(error)
             toast.error(error.message)
         })
     };

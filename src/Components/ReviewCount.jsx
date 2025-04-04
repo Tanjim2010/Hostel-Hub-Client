@@ -5,7 +5,7 @@ import Loader from "./Loader/Loader";
 
 const ReviewCount = ({mealTitle}) => {
     const axiosSecure = useAxiosSecure()
-    console.log(mealTitle)
+    // console.log(mealTitle)
     const { data: reviewCount, isPending: pending, isLoading } = useQuery({
         queryKey: [mealTitle],
         queryFn: async () => {
@@ -14,7 +14,7 @@ const ReviewCount = ({mealTitle}) => {
         }
     });
     if(pending, isLoading) return <Loader></Loader>
-    console.log(reviewCount)
+    // console.log(reviewCount)
     return reviewCount.length
 };
 

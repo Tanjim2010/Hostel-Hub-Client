@@ -32,7 +32,7 @@ const ManageUsers = () => {
                 refetch()
                 toast.success('this admin request is success')
               }
-              console.log(res)
+              // console.log(res)
             }
           });
     }

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const MealsCart = ({ meal }) => {
-    console.log(meal.image)
+    // console.log(meal.image)
     return (
         <div className="card card-compact bg-base-100 shadow-xl w-full">
             <figure>

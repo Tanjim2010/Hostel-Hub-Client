@@ -14,14 +14,14 @@ const SignUp = () => {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
     const onSubmit = (data) => {
-        console.log("Form Data: ", data);
+        // console.log("Form Data: ", data);
         const { name, email, password, photo } = data;
         signUpUser(email, password)
             .then(() => {
-                // console.log(res)
+                // // console.log(res)
                 updateUser(name, photo)
                     .then(res => {
-                        console.log(res)
+                        // console.log(res)
                         const userInfo = {
                             name: data.name,
                             email: data.email
@@ -29,7 +29,7 @@ const SignUp = () => {
                         axiosPublic.post('/users', userInfo)
                             .then(res => {
                                 if (res.data.insertedId) {
-                                    console.log('user added to the database')
+                                    // console.log('user added to the database')
                                     reset();
                                     navigate('/');
                                     toast.success('Login is successful..')
@@ -38,11 +38,11 @@ const SignUp = () => {
 
                     })
                     .catch(error => {
-                        console.log(error)
+                        // console.log(error)
                     })
             })
             .catch(error => {
-                console.log(error)
+                // console.log(error)
             })
     };
 

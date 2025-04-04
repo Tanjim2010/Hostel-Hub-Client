@@ -18,7 +18,7 @@ const MyReviews = () => {
             return res.data;
         }
     });
-    console.log(reviews)
+    // console.log(reviews)
 
     const handleDeleteButton = (id) => {
             Swal.fire({
@@ -36,7 +36,7 @@ const MyReviews = () => {
                         toast.success('deleted successful.')
                         refetch()
                     }
-                    console.log(res)
+                    // console.log(res)
                 }
             });
         }

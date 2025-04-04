@@ -10,12 +10,12 @@ const CheckOutFrom = ({ price, badges }) => {
     const stripe = useStripe();
     const elements = useElements();
     const axiosSecure = useAxiosSecure()
-    console.log(price)
+    // console.log(price)
 
     useEffect(() => {
         axiosSecure.post('/create-payment-intent', { price })
             .then(res => {
-                console.log(res.data.clientSecret)
+                // console.log(res.data.clientSecret)
                 setClientSecret(res.data.clientSecret)
             })
     }, [axiosSecure, price])
@@ -37,9 +37,9 @@ const CheckOutFrom = ({ price, badges }) => {
         });
 
         if (error) {
-            console.log('[error]', error);
+            // console.log('[error]', error);
         } else {
-            console.log('[PaymentMethod]', paymentMethod);
+            // console.log('[PaymentMethod]', paymentMethod);
         }
         // conform card payment
         const {paymentIntent, error:confirmError} = await stripe.confirmCardPayment(clientSecret,{
@@ -52,10 +52,10 @@ const CheckOutFrom = ({ price, badges }) => {
             }
         })
         if(confirmError){
-            console.log(confirmError)
+            // console.log(confirmError)
         }
         else{
-            console.log('paymentIntent',paymentIntent)
+            // console.log('paymentIntent',paymentIntent)
             if(paymentIntent.status === 'succeeded'){
                 toast.success('payment success full')
                 const payment = {
@@ -67,7 +67,7 @@ const CheckOutFrom = ({ price, badges }) => {
                 }
 
                 const res = await axiosSecure.post('/payments', payment);
-                console.log('payment saved',res)
+                // console.log('payment saved',res)
             }
         }
     }

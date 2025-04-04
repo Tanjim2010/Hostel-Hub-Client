@@ -16,7 +16,7 @@ const ServeMeals = () => {
     });
 
     if (pending || isLoading) return <Loader></Loader>
-    console.log(requestData)
+    // console.log(requestData)
 
     const handleServe = (id) => {
         Swal.fire({
@@ -29,9 +29,9 @@ const ServeMeals = () => {
             confirmButtonText: "Yes, delete it!"
         }).then(async (result) => {
             if (result.isConfirmed) {
-                console.log(id)
+                // console.log(id)
                 const res = await axiosSecure.patch(`/request/admin/${id}`)
-                console.log(res)
+                // console.log(res)
                 if (res.status === 200) {
                     refetch()
                     Swal.fire({

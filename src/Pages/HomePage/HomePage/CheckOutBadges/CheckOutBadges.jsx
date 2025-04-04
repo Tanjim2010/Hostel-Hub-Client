@@ -6,7 +6,7 @@ import CheckOutFrom from "./CheckOutFrom";
 const stripePromise = loadStripe(import.meta.env.VITE_Payment_Getaway_key)
 const CheckOutBadges = () => {
     const loadedPackage = useLoaderData()
-    console.log(loadedPackage)
+    // console.log(loadedPackage)
     return (
         <div className="flex items-center my-10 mx-20">
             <div className="w-1/2">
