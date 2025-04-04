@@ -14,7 +14,8 @@ import {
 const queryClient = new QueryClient()
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AuthProvider><QueryClientProvider client={queryClient}>
+    <AuthProvider>
+      <QueryClientProvider client={queryClient}>
       <RouterProvider router={Routes}></RouterProvider>
     </QueryClientProvider>
     </AuthProvider>

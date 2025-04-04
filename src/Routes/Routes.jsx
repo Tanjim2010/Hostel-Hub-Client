@@ -47,7 +47,7 @@ const Routes = createBrowserRouter([
                     {
                         path: 'checkOut/:badgesName',
                         element: <PrivateRoute><CheckOutBadges></CheckOutBadges></PrivateRoute>,
-                        loader: ({ params }) => fetch(`http://localhost:5000/packeges/${params.badgesName}`)
+                        loader: ({ params }) => fetch(`https://hostel-hub-server-six.vercel.app/packeges/${params.badgesName}`)
                     },
                     {
                         path: 'upcomingMeals',
