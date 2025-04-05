@@ -3,7 +3,7 @@ import useAxiosSecure from "../Hooks/useAxiosSecure";
 import Loader from "./Loader/Loader";
 
 
-const ReviewCount = ({mealTitle}) => {
+const ReviewCountComponent = ({mealTitle}) => {
     const axiosSecure = useAxiosSecure()
     // console.log(mealTitle)
     const { data: reviewCount, isPending: pending, isLoading } = useQuery({
@@ -19,4 +19,4 @@ const ReviewCount = ({mealTitle}) => {
 };
 
 
-export default ReviewCount;
+export default ReviewCountComponent;

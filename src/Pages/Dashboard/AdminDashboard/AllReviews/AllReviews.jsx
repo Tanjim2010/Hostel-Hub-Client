@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../../../Hooks/useAxiosSecure";
 import Loader from "../../../../Components/Loader/Loader";
-import ReviewCount from "../../../../Components/reviewCount";
+import ReviewCountComponent from "../../../../Components/ReviewCountComponent";
 
 
 const AllReviews = () => {
@@ -38,7 +38,7 @@ const AllReviews = () => {
                                 <td className="border border-gray-700 px-4 py-2">{review.mealTitle}</td>
                                 <td className="border border-gray-700 px-4 py-2 text-center">{review.likes ? review.likes : 0}</td>
                                 <td className="border border-gray-700 px-4 py-2 text-center">{review.rating}</td>
-                                <td className="border border-gray-700 px-4 py-2"><ReviewCount mealTitle={review.mealTitle} />
+                                <td className="border border-gray-700 px-4 py-2"><ReviewCountComponent mealTitle={review.mealTitle} />
                                 </td>
                                 <td className="border border-gray-700 px-4 py-2 flex justify-center space-x-2">
                                     <button className="btn btn-xs btn-primary">View</button>
