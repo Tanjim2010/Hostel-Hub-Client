@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../../../Hooks/useAxiosSecure";
 import Loader from "../../../../Components/Loader/Loader";

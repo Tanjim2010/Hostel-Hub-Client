@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "assignment-11-hotel"
-  }
+    "default": "assignment-11-hotel",
+    "HostelHub": "assignment-12-499f2"
+  },
+  "targets": {},
+  "etags": {}
 }
