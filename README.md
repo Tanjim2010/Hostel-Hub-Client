@@ -1,8 +1,51 @@
-# React + Vite
+# Hostel Hub - Client Side
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 **Live Site:** [https://assignment-12-499f2.web.app](https://assignment-12-499f2.web.app)
 
-Currently, two official plugins are available:
+## 🔑 Admin Credentials:
+- **Admin Email:** admin@hostelhub.com
+- **Admin Password:** 123456
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🌟 Features:
+1. User authentication using Firebase and Google login.
+2. Role-based dashboard for users and admins.
+3. Fully responsive design for mobile, tablet, and desktop.
+4. Meal management with categories: Breakfast, Lunch, Dinner.
+5. Premium membership system (Silver, Gold, Platinum).
+6. Meal request and review system with likes and ratings.
+7. Stripe payment integration for package checkout.
+8. Persistent login with secure routing.
+9. Sweetalert2 and Toast notifications for all CRUD actions.
+10. Real-time data fetching using TanStack React Query (GET method).
+
+---
+
+## 🔧 Technologies Used:
+- React.js
+- Tailwind CSS
+- DaisyUI
+- Firebase Auth
+- React Router DOM
+- React Hook Form
+- Stripe.js
+- Axios
+- Sweetalert2
+- Framer Motion
+- React Icons
+- TanStack React Query
+- Swiper.js
+- React Infinite Scroll Component
+
+---
+
+## 📁 Environment Variables (.env)
+```env
+VITE_FIREBASE_API_KEY=xxxxxxx
+VITE_FIREBASE_AUTH_DOMAIN=xxxxxxx
+VITE_FIREBASE_PROJECT_ID=xxxxxxx
+VITE_FIREBASE_STORAGE_BUCKET=xxxxxxx
+VITE_FIREBASE_MESSAGING_SENDER_ID=xxxxxxx
+VITE_FIREBASE_APP_ID=xxxxxxx
+VITE_API_BASE_URL=https://hostel-hub-server-six.vercel.app
